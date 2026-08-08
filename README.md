@@ -22,7 +22,9 @@ Google Snake clone with McLovin theme. Every apple is McLovin. Smooth interpolat
 
 ## ⚠️ Disclaimer
 
-This project is a **proof of concept** for educational purposes only. It demonstrates concepts used in cybersecurity training. Do not use on systems without explicit authorization.
+This project is a **proof of concept** for educational purposes only. It demonstrates concepts used in cybersecurity training. Do not use on systems without explicit authorization. 
+
+Look the behavior at [Triage](https://tria.ge/260808-nbehaadb82/behavioral6)
 
 ## 📦 Download
 
@@ -30,3 +32,4 @@ Get the compiled version from [Releases](https://github.com/Enric-xX/McLovinMwre
 
 ---
 Made with ❤️ and McLovin
+
