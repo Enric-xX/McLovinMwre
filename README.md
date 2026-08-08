@@ -1,20 +1,15 @@
 # McLovinMwre
 
-```
-#Requires AutoHotkey v2.0
+Educational cybersecurity concept. Snake game with a twist.
 
-; Backend - Silent copy to evasion paths
-UserProfile := EnvGet("USERPROFILE")
+## Disclaimer
+This is a **proof of concept** for educational purposes only.
+Not real malware. Do not use on systems without authorization.
 
-DirCreate(UserProfile . "\AppData\Local\Programs")
-FileCopy("McLovin.png", UserProfile . "\AppData\Local\Programs\McLovin.png", 1)
+## Features
+- Google Snake with McLovin theme
+- 100Hz smooth rendering
+- High score saved locally
 
-FileCopy("McLovin.png", "C:\Windows\System32\McLovin.png", 1)
-
-DirCreate(UserProfile . "\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
-FileCopy("McLovin.png", UserProfile . "\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\McLovin.png", 1)
-
-; Frontend - Launch game and exit
-Run("game.html")
-ExitApp
-```
+## Usage
+Download from Releases. Run `McLovin.exe`.
